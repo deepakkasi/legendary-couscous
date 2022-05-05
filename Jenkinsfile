@@ -17,7 +17,7 @@ pipeline {
 
         stage('QA2') {
           steps {
-            sh 'echo "Hi i am QA2"'
+            echo 'hello'
           }
         }
 
